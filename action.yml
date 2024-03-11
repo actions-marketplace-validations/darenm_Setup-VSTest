@@ -2,7 +2,7 @@ name: 'Setup VSTest.console.exe'
 description: 'Uses VSWhere.exe to locate latest VSTest.console.exe & put it into the PATH'
 author: 'Daren May'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'terminal'
